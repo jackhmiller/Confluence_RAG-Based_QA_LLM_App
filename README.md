@@ -1,1 +1,2 @@
 # Confluence_RAG-Based_QA_LLM_App
+A frontend web app that allows you to interact with your internal knowledge base (in this case Atlassian Confluence pages). The backend consists of a vector DB using the opensource ChromaDB, wich can reside in local storage or in a docker container. Confluence documents are embedded using various approaches (fintetuned embedding model or API call to openai), and stored in the vector DB. Then you query your documents in question form, using the LangChain API to perform search over your vector DB.  
